@@ -1,0 +1,208 @@
+<!--index.wxml-->
+<!-- 顶部搜索框 -->
+<view class="body">
+
+<view class="top_view">
+  <input type="text" placeholder="请输入商品名称" class="top_input"></input>
+</view>
+<!-- 内容 -->
+<view class="container">
+<!-- 热搜 -->
+  <view class="top_key">
+    <view class="key-item key-active">热搜</view>
+    <view class="key-item">运动装</view>
+    <view class="key-item">男装</view>
+    <view class="key-item">保温杯</view>
+    <view class="key-item">显示器</view>
+  </view>
+  <!-- 轮播图 -->
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='3000' duration='1000' circular='true'>
+    <swiper-item wx:for="{{img_list}}" wx:key="index">
+      <image src='{{item.img_url}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+</swiper>
+
+<!-- 入口按钮 -->
+<view class="icon">
+  <view class="icon-item" wx:for="{{icon_list}}" wx:key="index">
+    <image src="{{item.img_url}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+<!-- ////////////////////////////////拼团 -->
+<view class="container-box">
+  <view class="container-box-item">
+    <view class="item-title">
+      <text class="item-title-left">京东拼购</text>
+      <text class="item-title-right">省钱好物一元起</text>
+    </view>
+    <view class="item-img">
+      <image src="/pages/img/study_computer_img3.png" />
+      <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="item-price">
+      <text class="item-price-left">
+        <text class="item-radio">2人拼</text>￥12.8
+      </text>
+      <text class="item-price-right">
+        <text class="item-radio">2人拼</text>￥9.6
+      </text>
+    </view>
+    <view class="item-price-down">
+      <text>￥36</text>
+      <text>￥22</text>
+    </view>
+  </view>
+  <view class="container-box-item">
+    <view class="item-title">
+      <text class="item-title-left">京东拼购</text>
+      <text class="item-title-right">省钱好物一元起</text>
+    </view>
+    <view class="item-img">
+      <image src="/pages/img/study_computer_img3.png" />
+      <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="item-price">
+      <text class="item-price-left">
+        <text class="item-radio">2人拼</text>￥12.8
+      </text>
+      <text class="item-price-right">
+        <text class="item-radio">2人拼</text>￥9.6
+      </text>
+    </view>
+    <view class="item-price-down">
+      <text>￥36</text>
+      <text>￥22</text>
+    </view>
+  </view>
+  <view class="container-box-item">
+    <view class="item-title">
+      <text class="item-title-left">京东拼购</text>
+      <text class="item-title-right">省钱好物一元起</text>
+    </view>
+    <view class="item-img">
+      <image src="/pages/img/study_computer_img3.png" />
+      <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="item-price">
+      <text class="item-price-left">
+        <text class="item-radio">2人拼</text>￥12.8
+      </text>
+      <text class="item-price-right">
+        <text class="item-radio">2人拼</text>￥9.6
+      </text>
+    </view>
+    <view class="item-price-down">
+      <text>￥36</text>
+      <text>￥22</text>
+    </view>
+  </view>
+  <view class="container-box-item">
+    <view class="item-title">
+      <text class="item-title-left">京东拼购</text>
+      <text class="item-title-right">省钱好物一元起</text>
+    </view>
+    <view class="item-img">
+      <image src="/pages/img/study_computer_img3.png" />
+      <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="item-price">
+      <text class="item-price-left">
+        <text class="item-radio">2人拼</text>￥12.8
+      </text>
+      <text class="item-price-right">
+        <text class="item-radio">2人拼</text>￥9.6
+      </text>
+    </view>
+    <view class="item-price-down">
+      <text>￥36</text>
+      <text>￥22</text>
+    </view>
+  </view>
+</view>
+
+<!-- ////////////////////////////////排行榜 -->
+<view class="nav-box">
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+</view>
+
+<!-- /////////////////////精选馆区 -->
+ <view class="nav-item-title">
+    <text class="nav-item-title-left">精选馆区</text>
+    <text class="nav-item-title-right">查看全部></text>
+ </view>
+<view class="nav-box">
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+     <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+    <view class="nav-item">
+        <text class="nav-item-top">排行榜</text>
+        <text class="nav-item-down">大家都在买</text>
+        <image src="/pages/img/study_computer_img4.png" />
+    </view>
+</view>
+
+<!-- ///////////////商品列表 -->
+  <view class="shop_list">
+      <view class="shop_list_item" wx:for="{{shop_List}}" wx:key="index">
+          <image src="{{item.img_url}}"/>
+          <text>{{item.name}}</text>
+          <view class="shop_item_down">
+              <text class="text-left">{{item.id}}</text>
+              <text class="text-right">看相似</text>
+          </view>
+      </view>
+  </view>
+  </view>
+</view>

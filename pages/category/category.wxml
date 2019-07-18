@@ -1,0 +1,58 @@
+<!-- 顶部搜索框 -->
+<view class="top_input">
+    <input type="text" placeholder="搜索京东商品" />
+</view>
+
+<!-- 内容部分 -->
+<view class="container">
+    <view class="Left-nav">
+        <text class="left-nav-item active">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+        <text class="left-nav-item">热搜推荐</text>
+    </view>
+    <view class="right-container">
+        <image src="/pages/img/banner1.png" class="top_img" lazy-load="{{true}}"/>
+        <text class="right-container-title">专场推荐</text>
+        <view class="Recommend">
+            <view class="Recommend-item">
+                <view class="Recommend-item-text">
+                    <text class="Recommend-item-text-up">低价房源</text>
+                    <text class="Recommend-item-text-down">全款5折起</text>
+                </view>
+                <image src="/pages/img/study_computer_img1.png" />
+            </view>
+            <view class="Recommend-item">
+                <view class="Recommend-item-text">
+                    <text class="Recommend-item-text-up">低价房源</text>
+                    <text class="Recommend-item-text-down">全款5折起</text>
+                </view>
+                <image src="/pages/img/study_computer_img1.png" />
+            </view>
+            <view class="Recommend-item">
+                <view class="Recommend-item-text">
+                    <text class="Recommend-item-text-up">低价房源</text>
+                    <text class="Recommend-item-text-down">全款5折起</text>
+                </view>
+                <image src="/pages/img/study_computer_img1.png" />
+            </view>
+            <view class="Recommend-item">
+                <view class="Recommend-item-text">
+                    <text class="Recommend-item-text-up">低价房源</text>
+                    <text class="Recommend-item-text-down">全款5折起</text>
+                </view>
+                <image src="/pages/img/study_computer_img1.png" />
+            </view>
+        </view>
+    </view>
+</view>

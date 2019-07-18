@@ -1,0 +1,236 @@
+/**index.wxss**/
+.body{
+  background-color: #f7f7f7;
+}
+.top_view{
+  background-color: red;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top:0;
+}
+.top_view .top_input{
+  width: 550rpx;
+  height: 60rpx;
+  background-color: #fff;
+  border-radius: 200rpx;
+  color: rgb(240, 240, 240);
+  padding-left: 30rpx;
+  margin-left: 120rpx;
+}
+/* 热搜 */
+
+.container .top_key{
+  padding-top: 100rpx;
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .top_key .key-item{
+  width: 130rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  margin-top:5rpx;
+  margin-bottom: 15rpx;
+  background-color: #FF4747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .top_key .key-active{
+  background-color: red;
+}
+.u-wrp-bnr {
+  width: 100%;
+  height: 366rpx;
+  display: block;
+  position: relative;
+  background: #f0f0f0;
+}
+.u-img-slide {
+  width: 100%;
+  height: inherit;
+}
+
+/* 入口按钮 */
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon .icon-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+}
+.icon .icon-item image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 20rpx 0;
+}
+.icon .icon-item text{
+  font-size: 12px;color: #000;
+}
+
+/* 京东拼购 */
+.container-box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+  justify-content: space-around;
+}
+.container-box .container-box-item{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 14rpx;
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+}
+.container-box .container-box-item .item-title{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.container-box .container-box-item .item-title .item-title-left{
+  font-size: 15px;
+}
+.container-box .container-box-item .item-title .item-title-right{
+  font-size: 12px;
+  color: #ddd;
+}
+.container-box .container-box-item .item-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50rpx 0;
+}
+.container-box .container-box-item .item-img image{
+  width: 198rpx;
+  height: 136rpx;
+}
+.container-box .container-box-item .item-price{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-box .container-box-item .item-price .item-radio{
+  display: inline-block;
+  width: 70rpx;
+  height: 34rpx;
+  background-color: red;
+  border-radius: 50rpx;
+  font-size: 9px;
+  color: #fff;
+  line-height: 34rpx;
+  text-align: center;
+}
+.container-box .container-box-item .item-price .item-price-left,.item-price-right{
+  color: red;
+  font-size: 16px;
+}
+.container-box .container-box-item .item-price-down{
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  color: #bfbfbf;
+  margin-top: 20rpx;
+  text-decoration: line-through;
+}
+
+/* ////////////////////////////////排行榜 */
+
+.nav-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.nav-box .nav-item{
+  box-sizing: border-box;
+  width: 24%;
+  padding: 10rpx;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 14rpx;
+}
+.nav-box .nav-item .nav-item-top{
+  font-size: 14px;
+}
+.nav-box .nav-item .nav-item-down{
+  font-size: 12px;
+  color: #ddd;
+  margin: 10rpx 0;
+}
+.nav-box .nav-item image{
+  width: 170rpx;
+  height: 108rpx;
+  margin: 10rpx 0;
+}
+/* ////精选馆区 */
+.nav-item-title{
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 20rpx;
+  align-items: baseline;
+}
+.nav-item-title .nav-item-title-left{
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-item-title .nav-item-title-right{
+  font-size: 12px;
+  color: #ddd;
+}
+
+/* <!-- ///////////////商品列表 --> */
+
+.shop_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shop_list .shop_list_item{
+  width: 49%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 14rpx;
+  align-items: center;
+  justify-content: center;
+}
+.shop_list .shop_list_item image{
+  width: 202rpx;
+  height: 202rpx;
+  margin: 20rpx 0;
+}
+.shop_list .shop_list_item .shop_item_down{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.text-left{
+  color: red;
+  font-size: 16px;
+  margin-right: 120rpx;
+}
+.text-right{
+  font-size: 12px;
+  color: #ddd;
+  border: 1px solid #ddd;
+  width: 100rpx;
+  height: 40rpx;
+  border-radius: 50rpx;
+  margin-left: 80rpx;
+}
