@@ -3,7 +3,10 @@
 <view class="body">
 
 <view class="top_view">
-  <input type="text" placeholder="请输入商品名称" class="top_input"></input>
+  <view class="category">
+    <image src="/pages/img/4.png" bind:tap="goCategory"/>
+  </view>
+  <input type="text" placeholder="请输入商品名称" class="top_input" bind:tap="getkey"></input>
 </view>
 <!-- 内容 -->
 <view class="container">

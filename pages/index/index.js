@@ -14,6 +14,16 @@ Page({
     pno:0,
     pageSize:7
   },
+  goCategory:function(){
+    wx.switchTab({
+      url:'/pages/category/category'
+    })
+  },
+  getkey:function(){
+    wx.navigateTo({
+      url: '/pages/search/search'
+    });
+  },
   getImgList:function(){
     wx.request({
       url: 'http://127.0.0.1:3000/imageListjd',

@@ -1,0 +1,119 @@
+/* pages/cart/cart.wxss */
+.cart-top{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 80rpx;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    margin: 0 10rpx;
+}
+.card-c{
+    height: 30rpx;
+    background-color:rgb(245, 245, 245);
+}
+.cart-card{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20rpx;
+}
+.card-title{
+    height: 80rpx;
+    border-bottom: 1rpx solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10rpx;   
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rpx;
+}
+.card-container-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150rpx;
+    padding-left: 10rpx;
+}
+.card-container-top image{
+    width: 198rpx;
+    height: 136rpx;
+}
+.card-container-top text{
+    width: 60%;
+    font-size: 14px;
+}
+.card-price{
+    display: flex;
+    width: 56%;
+    align-items: center;
+    height: 80rpx;
+    margin-left: 300rpx;
+    justify-content: space-between;
+}
+.price-left{
+    font-size: 14px;
+    color: red;
+}
+.card-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.card-btn .num{
+    display: flex;
+    width: 20px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.card-btn .btn{
+    display: flex;
+    width: 20px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-nav{
+    height: 100rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+.bottom-nav .nav-left{
+    width: 60%;
+    padding-left: 10rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    font-size: 14px;
+    color: #ddd;
+}
+.bottom-nav .nav-right{
+    width: 40%;
+    background-color: #ddd;
+    height: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-price{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-right: 10rpx;
+}
+.left-price-num{
+    color:red;
+}
+.cont{
+    font-size: 12px;
+    margin-left: 10rpx;
+}

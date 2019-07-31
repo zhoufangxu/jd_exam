@@ -8,17 +8,26 @@
   height: 100rpx;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   position: fixed;
   top:0;
+  z-index: 9999;
+}
+.top_view .category{
+  width: 130rpx;
+  height: 100rpx;
+}
+.top_view .category image{
+  width: 130rpx;
+  height: 100rpx;
 }
 .top_view .top_input{
   width: 550rpx;
   height: 60rpx;
   background-color: #fff;
   border-radius: 200rpx;
-  color: rgb(240, 240, 240);
+  color:black;
   padding-left: 30rpx;
-  margin-left: 120rpx;
 }
 /* 热搜 */
 

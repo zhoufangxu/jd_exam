@@ -1,0 +1,19 @@
+<!--pages/search/search.wxml-->
+<input type="text" placeholder="请输入商品名称" class="search" focus="{{true}}"></input>
+<view class="container">
+  <view class="hot">
+    <text class="hot-left">热门搜索</text>
+    <text class="hot-right">换一批</text>
+  </view>
+  <view class="search-text">
+    <text>生日礼物</text>
+    <text>电脑主机</text>
+    <text>CPU</text>
+    <text>机械键盘</text>
+    <text>液晶显示器</text>
+    <text>毕业礼物</text>
+    <text>台式电脑</text>
+    <text>一体机电脑</text>
+    <text>华为手机</text>
+  </view>
+</view>

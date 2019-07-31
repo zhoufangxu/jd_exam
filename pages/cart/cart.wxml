@@ -1,0 +1,44 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart-top">
+    <text>北京市昌平区</text>
+    <text>编辑商品</text>
+</view>
+<view class="card-c"></view>
+<view class="cart-card">
+    <view class="card-title">
+        <radio value="1"/>
+        <text class="card-pro">向品礼品专营店></text>
+    </view>
+    <view class="card-container">
+        <view class="card-container-top">
+            <radio value="1" />
+            <image src="/pages/img/study_computer_img4.png"/>
+            <text>向品七夕情人节礼物送女友女朋友男友男朋友生日礼物女生男生创意礼品</text>
+        </view>
+    </view>
+    <view class="card-price">
+        <text class="price-left">￥238.00</text>
+        <view class="card-btn">
+            <button class="btn">-</button>
+            <span class="num">1</span>
+            <button class="btn">+</button>
+        </view>
+    </view>
+</view>
+<view class="card-c"></view>
+
+
+<view class="bottom-nav">
+    <view class="nav-left">
+        <view>
+            <radio value="1"/>
+            <span class="all">全选</span>
+        </view>
+        <view class="left-price">总计:
+            <text class="left-price-num">￥0.00</text>
+        </view>
+    </view>
+    <view class="nav-right">
+        去结算<text class="cont">(0)件</text>
+    </view>
+</view>
