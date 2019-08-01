@@ -1,1 +1,46 @@
 /* pages/my/my.wxss */
+.my-img{
+    width: 100%;
+    height: 500rpx;
+    background-color: #ED702D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-img .img-border{
+    width: 260rpx;
+    height: 260rpx;
+    border-radius: 50%;
+    background-image: url("http://127.0.0.1:3000/img1/1.png");
+    box-shadow: 0 0 10px rgb(77, 77, 77);
+}
+.card-c{
+    width: 100%;
+    height: 30rpx;
+    background-color: rgb(241, 241, 241);
+}
+
+.my-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.my-data .myself{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1rpx solid #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+}
+.my-data .my-card{
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+    border-bottom: 1rpx solid #ddd;
+}

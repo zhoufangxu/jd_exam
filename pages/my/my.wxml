@@ -1,2 +1,42 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="my-img">
+        <view class="img-border">
+            <!-- <image src="/pages/img/study_computer_img4.png" /> -->
+        </view>
+</view>
+<view class="card-c"></view>
+
+<view class="my-data">
+    <view class="myself">个人资料</view>
+    <view class="my-card">
+        <text class="text">我的优惠券</text>
+        <text class="right">></text>
+    </view>
+</view>
+<view class="card-c"></view>
+
+<view class="my-data">
+    <view class="my-card">
+        <text class="text">常见问题</text>
+        <text class="right">></text>
+    </view>
+    <view class="my-card">
+        <text class="text">使用条款</text>
+        <text class="right">></text>
+    </view>
+    <view class="my-card">
+        <text class="text">我的足迹</text>
+        <text class="right">></text>
+    </view>
+    <view class="my-card">
+        <text class="text">我的收藏</text>
+        <text class="right">></text>
+    </view>
+</view>
+<view class="card-c"></view>
+<view class="my-data">
+    <view class="my-card">
+        <text class="text">设置</text>
+        <text class="right">></text>
+    </view>
+</view>
