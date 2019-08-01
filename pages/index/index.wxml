@@ -58,7 +58,7 @@
   </view>
   <view class="container-box-item">
     <view class="item-title">
-      <text class="item-title-left">京东拼购</text>
+      <text class="item-title-left">京东秒杀</text>
       <text class="item-title-right">省钱好物一元起</text>
     </view>
     <view class="item-img">
